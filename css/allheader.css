@@ -1,0 +1,9 @@
+.logo {
+    color: rgba(255, 255, 255, 0.90);
+font-size: 22px;
+font-family: Poppins;
+font-weight: 600;
+}
+.logo::before {
+    d
+}

@@ -1,7 +1,22 @@
+@import "./allheader.css";
+
 .container {
     width: 1140px;
     margin: 0 auto;
 }
 body {
     background-color: #1E252B;
+    
 }
+input {
+    outline: none;
+
+}
+a {
+    text-decoration: none;
+}
+.preview {
+    background: url(../../img/Illustration.png) right no-repeat;
+    padding: 70px;
+}
+
