@@ -12,46 +12,232 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="allheader">
-                <div class="logonav">
-                    <a href="#"> <img src="./svg/logo.svg" alt="logo"><h2 class="logo">antools.</h2></a>
+            <div class="header_block">
+                <div class="header_logo">
+                    <a href="#"><h2 class="logo">antools.</h2></a>
                     <nav>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Categories</a></li>
-                            <li><a href="#">My Collections</a></li>
-                            <li><a href="#">Blog</a></li>
+                        <ul class="header_list">
+                            <li class="header_item">
+                                <a class= "header_link" href="#">Home</a></li>
+                            <li class="header_item1"><a class="header_link" href="#">Categories <img src="./svg/chevron-down.svg" alt=""></a></li>
+                            <li class="header_item"><a class="header_link" href="#">My Collections</a></li>
+                            <li class="header_item"><a class="header_link" href="#">Blog</a></li>
                         </ul>
                     </nav>
-                    <div class="login">
+                
+                    <div class="header_login">
                         <a href="#">Login</a>
-                            <button type="submit">Sign Up</button>
+                            <button class="header_btn" type="submit">Sign Up</button>
                     </div>
-                    
                 </div>
+                    
+                
             </div>
         </div>
         <section class="preview">
             <div class="container">
-                <div class="text">
+                <div class="preview_text">
                     <h1>Awesome tools for<br>
                         Designer & Developer<span>.</span></h1>
                         <p>Antool is a web collection of information on paid or<br> free Design and Development tools</p>
                 </div>
-                <div class="searchstring">
+                <div class="preview_search">
                     <form action="#">
                         <input type="text" placeholder="find more than 430+ tools...">
                         <input type="button" value="Search">
                          
                     </form>
                 </div>
+                <div class="preview_socmedia">
+                    <img src="./svg/Group 1415.svg" alt="facebook">
+                    <img src="./svg/Group 1416.svg" alt="inst">
+                    <img src="./svg/Group 1417.svg" alt="twitter">
+                </div>
             </div>
         </section>
     </header>
     <main>
-
+        <section class="tools">
+            <div class="container">
+                <div class="tools_descr">
+                    <h2>Most Popular Tools</h2>
+                    <p>Tools for the best Designers and Developers
+                        most popularly used in the world</p>
+                </div>
+                <div class="tools_cards">
+                    <nav>
+                        <ul>
+                            <li>
+                                <img src="./svg/grommet-icons_figma.svg" alt="figma">
+                                <h4>FIGMA</h4>
+                                <p><span>Free</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a>
+                            </li>
+                            <li>
+                                <img src="./svg/logos_sketch.svg" alt="sketch">
+                                <h4>Sketch</h4>
+                                <p><span>Trial & Paid</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a>
+                            </li>
+                            <li>
+                                <img src="./svg/logos_visual-studio-code.svg" alt="vsc">
+                                <h4>Visual Studio Code</h4>
+                                <p><span>Free</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a>
+                            </li>
+                            <li>
+                                <img src="./svg/notion.svg" alt="notion">
+                                <h4>Notion</h4>
+                                <p><span>Free & Paid</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a>
+                            </li>
+                            <li>
+                                <img src="./svg/grommet-icons_slack.svg" alt="slack">
+                                <h4>Slack</h4>
+                                <p><span>Free & Paid</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a>
+                            </li>
+                            <li>
+                                <img src="./svg/logos_invision-icon.svg" alt="Invision">
+                                <h4>Invision</h4>
+                                <p><span>Free & Paid</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button>Load more</button>
+                </div>
+            </div>
+        </section>
+        <section class="trusted">
+            <div class="container">
+                <div class="trusted_brands">
+                    <p>Trusted more than 150+ brand</p>
+                    <nav>
+                        <ul>
+                            <li> <img src="./svg/logos_microsoft.svg" alt="microsoft"></li>
+                            <li><img src="./svg/logos_google.svg" alt="google"></li>
+                            <li><img src="./svg/logos_slack.svg" alt="slack"></li>
+                            <li><img src="./svg/logos_wordpress.svg" alt="wordpress"></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="new">
+            <div class="container">
+                <div class="newcomertools">
+                    <h2>Newcomer Tools</h2>
+                    <p>Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+                    <button>Explore more</button>
+                </div>
+                <div class="new_listools">
+                    <nav>
+                        <ul>
+                            <li>
+                                <img src="./svg/zeplin.svg" alt="zeplin">
+                                <h4>Zeplin</h4>
+                                <p><span>Free & Paid</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a>
+                            </li>
+                            <li>
+                                <img src="./svg/jb_phpstorm.svg" alt="phpstorm">
+                                <h4>PHPStorm</h4>
+                                <p><span>Free</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a></li>
+                            <li>
+                                <img src="./svg/jb_toolbox_app.svg" alt="toolbox">
+                                <h4>Toolbox</h4>
+                                <p><span>Free</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a></li>
+                            <li>
+                                <img src="./svg/procreate.svg" alt="procreate">
+                                <h4>Procreate</h4>
+                                <p><span>Free & Paid</span></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button><img src="./svg/flat-color-icons_like.svg" alt="like"></button>
+                                <img src="./svg/eva_folder-add-outline.svg" alt="folder">
+                                <a href="#"><button>Visit</button></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="us">
+            <div class="container">
+                <div class="man">
+                    <img src="./img/david-suarez-4a1nNlrS5ZI-unsplash.png" alt="ronald">
+                    <img src="./img/“.png" alt="comma">
+                    <p>Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="join">
+                    <h2>Become a contributor?</h2>
+                    <p>Join us and get tips & tricks to become a great Designer and Developer</p>
+                    <form>
+                        <input type="text" placeholder="Enter your email...">
+                            <input type="button" value="Join Us">
+                    </form>
+                </div>
+            </div>
+        </section>
+        
     </main>
+    <footer>
+        <div class="antools_footer">
+            <a href="#"><h2 class="logo2">antools.</h2></a>
+            <p><span>Copyright 2021. Antools</span></p>
+            <p>Antool is a web collection of information on paid or free Design and Development tools</p>
+        </div>
+        <div class="contact_us">
+            <h2>Contact Us</h2>
+             <a href="tel:+621987463">+621987463</a>
+             <a href="#">M Building, No.10 A</a>
+               <a href="mailto:antools@awesome.com">antools@awesome.com</a>
+        </div>
+        <div class="categories">
+            <h2>Categories</h2>
+            <p>Design</p>
+            <p>Development</p>   
+        </div>
+        <div class="company">
+            <h2>Company Info</h2>
+            <p>About Us</p>
+            <p>Our Partners</p>
+            <p>Blog</p>
+        </div>
+    </footer>
 </body>
 </html>

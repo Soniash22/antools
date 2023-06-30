@@ -5,5 +5,52 @@ font-family: Poppins;
 font-weight: 600;
 }
 .logo::before {
-    d
+    content: url(./../svg/logo.svg);
+    margin-right: 20px;
+}
+/* footer */
+.logo2::before {
+    content: url(./../svg/Group\ 159.svg);
+    margin-right: 10px;
+}
+/* footer */
+.header_list,.header_list a {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.55);
+font-size: 16px;
+font-family: Poppins;
+font-weight: 500;
+}
+.header_list {
+    width: 430px;
+    display: flex;
+    justify-content: space-between
+}
+.header_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_link {
+    display: flex;
+    align-items: center;
+}
+.header_login a, .header_btn {
+    color: rgba(255, 255, 255, 0.78);
+font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 40px;
+}
+.header_btn {
+    border-radius: 8px;
+    border: none;
+background: #FF6E30;
+padding: 10px 25px;
+}
+header {
+    margin-top: 30px;
 }
