@@ -24,7 +24,8 @@ font-weight: 500;
 .header_list {
     width: 430px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
 }
 .header_logo {
     display: flex;
@@ -45,12 +46,25 @@ font-weight: 600;
 line-height: normal;
 margin-right: 40px;
 }
-.header_btn {
+.header_btn,.header_btn:hover {
     border-radius: 8px;
     border: none;
 background: #FF6E30;
 padding: 10px 25px;
+cursor: pointer;
 }
 header {
     margin-top: 30px;
+    margin-bottom: 80px;
 }
+.header_item1::after {
+    content: url(./../svg/chevron-down.svg);
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.header_item1 {
+    display: flex;
+    align-items: center;
+  }
+  

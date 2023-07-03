@@ -1,4 +1,6 @@
 @import "./allheader.css";
+@import "./tools.css";
+@import "./preview.css";
 
 .container {
     width: 1140px;
@@ -19,6 +21,4 @@ a {
     background: url(../../img/Illustration.png) right no-repeat;
     padding: 70px;
 }
-.man {
-    
-}
+
