@@ -27,6 +27,7 @@ line-height: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0;
 }
 .tools_item {
     margin-top: 110px;
@@ -60,3 +61,70 @@ margin: 0;
 .tools_block-img {
     margin-right: 30px;
 }
+.tools_item>p {
+    color: rgba(255, 255, 255, 0.55);
+font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 30px;
+margin-right: 15px;
+}
+.tools_item {
+    /* margin-right: 25px; */
+    padding-right: 30px;
+}
+.tools_item-btns,.tools_item-btns svg,.tools_item-btns button {
+    display: flex;
+    border-radius: 8px;
+background: #1E252B;
+border: none;
+
+}
+.tools_item-btns button {
+    margin-top: 30px;
+margin-right: 10px;
+padding-bottom: 9px;
+}
+.tools_link{
+    display: flex;
+    align-items: flex-end;
+}
+.tools_item-box {
+    display: flex;
+    justify-content: space-between;
+}
+.tools_btn {
+    border-radius: 8px;
+background: #1E252B;
+border: none;
+color: rgba(255, 255, 255, 0.55);
+font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 9px 35px;
+margin-right: 15px;
+}
+.tools_loadmore-btn {
+    border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: #1E252B;
+
+color: #FF6E30;
+font-size: 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+padding: 17px 38px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+margin-top: 135px;
+cursor: pointer;
+}
+

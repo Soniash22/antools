@@ -1,6 +1,7 @@
 @import "./allheader.css";
 @import "./tools.css";
 @import "./preview.css";
+@import "./brands.css";
 
 .container {
     width: 1140px;

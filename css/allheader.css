@@ -54,8 +54,7 @@ padding: 10px 25px;
 cursor: pointer;
 }
 header {
-    margin-top: 30px;
-    margin-bottom: 80px;
+    padding: 26px 0 58px 0;
 }
 .header_item1::after {
     content: url(./../svg/chevron-down.svg);
