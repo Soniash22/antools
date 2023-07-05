@@ -9,8 +9,8 @@ font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-padding: 55px 0 35px;
-margin-top: 185px;
+margin-bottom: 50px;
+
 
 display: flex;
 justify-content: center;
@@ -24,21 +24,23 @@ justify-content: center;
 .brands_content {
     border-radius: 25px;
 background: rgba(44, 53, 61, 0.20);
-width: 1224px;
-height: 253px;
+box-sizing: border-box;
+position: relative;
+transition: 0.5s;
+overflow: hidden;
+padding: 55px 0 35px;
+margin-top: 150px;
 }
-/* .brands_list {
-    border-radius: 159px;
-background: rgba(255, 72, 66, 0.40);
-filter: blur(50px);
-} */
-.ellipse{
+.ellipse::before {
+    content: '';
+    position: absolute;
     height: 159px;
     width: 159px;
     border-radius: 159px;
 background: rgba(255, 72, 66, 0.40);
-filter: blur(50px);
-display: inline-block;
-    margin: 0;
-    position: fixed;hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+filter: blur(70px);
+display: block;
+   top: -75px;
+   left: -75px;
+   border-radius: 159px;
 }

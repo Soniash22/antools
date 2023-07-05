@@ -2,6 +2,7 @@
 @import "./tools.css";
 @import "./preview.css";
 @import "./brands.css";
+@import "./newcomer.css";
 
 .container {
     width: 1140px;
