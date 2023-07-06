@@ -81,7 +81,7 @@ margin-right: 15px; */
 .tools_item-btns,.tools_item-btns svg,.tools_item-btns button {
     display: flex;
     border-radius: 8px;
-background: #1E252B;
+    background:rgba(0, 0, 0, 0);
 border: none;
 
 }
@@ -99,7 +99,7 @@ border: none;
 }
 .tools_btn {
     border-radius: 8px;
-background: #1E252B;
+background:rgba(0, 0, 0, 0);
 border: none;
 color: rgba(255, 255, 255, 0.55);
 font-size: 16px;
@@ -129,4 +129,50 @@ margin: 0 auto;
 margin-top: 135px;
 cursor: pointer;
 }
+.tools_item:hover {
+    border-radius: 15px;
+background: rgba(40, 48, 54, 0.60);
+backdrop-filter: blur(25px);
+transition: 0.8s;
+box-sizing: border-box;
+position: relative;
+overflow: hidden;
 
+transform:scale3d(1.1,1.1,4) ;
+cursor: pointer;
+}
+.tools_item {
+    padding: 28px;
+    border-radius: 15px;
+}
+.tools_item>.ellipse1::before {
+    content: '';
+    position: absolute;
+    height: 159px;
+    width: 159px;
+    border-radius: 159px;
+background: rgba(255, 72, 66, 0.40);
+filter: blur(70px);
+display: block;
+   top: -75px;
+   right: -75px;
+   border-radius: 159px; }
+
+   .tools_heart:focus path {
+     fill: #FD3B41;
+     outline-color: transparent;
+     box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+     cursor: pointer;
+
+     
+
+   }
+   .tools_btn:hover {
+    background: #FF6E30;
+    color: #FFF;
+    transition: 0.8s;
+   }
+   .tools_heart:hover {
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+
+   }

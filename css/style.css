@@ -3,6 +3,7 @@
 @import "./preview.css";
 @import "./brands.css";
 @import "./newcomer.css";
+@import "./slider.css";
 
 .container {
     width: 1140px;
