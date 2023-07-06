@@ -110,7 +110,10 @@ margin-bottom: 30px;
     transform:scale3d(1.1,1.1,4) ;
     cursor: pointer;
 }
-.newcomer_item>.ellipse1::before {
+.newcomer_item::before {
+    position: relative;
+}
+/* .ellipse1::before {
     content: '';
     position: absolute;
     height: 159px;
@@ -121,4 +124,4 @@ filter: blur(70px);
 display: block;
    top: -75px;
    right: -75px;
-   border-radius: 159px; }
+   border-radius: 159px; } */
