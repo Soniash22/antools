@@ -5,7 +5,17 @@ font-size: 22px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+display: flex;
+
+align-items: flex-start;
 }
+
+.logo2::before {
+    content: url(./../svg/Group\ 159.svg);
+    margin-right: 10px;
+}
+
+
 .footer_span {
     color: rgba(255, 255, 255, 0.90);
     font-family: Poppins;

@@ -36,3 +36,39 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
+.slider i {
+    color: #FFFFFF47;
+    cursor: pointer;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.slider i:hover {
+    color: #FF6E30;
+    scale: 1.2;
+}
+.slider_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slider_dots li {
+    width: 44px;
+height: 6px;
+
+border-radius: 4px;
+background: #283036;
+cursor: pointer;
+
+}
+.slider_dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 168px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.slider_dots .dots_active {
+    background: #FF6E30 ;
+}

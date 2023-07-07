@@ -108,6 +108,7 @@ margin-bottom: 30px;
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
+    
 
     
     transform:scale3d(1.1,1.1,4) ;
@@ -117,7 +118,24 @@ margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
-.ellipse1::before {
+.newcomer_item:hover::after {
+    position: relative;
+    overflow: hidden;
+    content: "";
+  position: absolute;
+  height: 159px;
+  width: 159px;
+  border-radius: 159px;
+  background: rgba(255, 72, 66, 0.4);
+  filter: blur(70px);
+  display: block;
+  top: -75px;
+  right: -75px;
+  border-radius: 159px;
+}
+
+
+.ellipse1:hover::before {
     content: '';
     position: absolute;
     height: 159px;
@@ -130,7 +148,7 @@ display: block;
    right: -75px;
    border-radius: 159px; }
 
-   .ellipse1:hover {
+   /* .ellipse1:hover {
     content: '';
     position: absolute;
     height: 159px;
@@ -144,5 +162,5 @@ display: block;
    border-radius: 159px;
     background: rgba(255, 72, 66, 0.40);
 
-   }
+   } */
    

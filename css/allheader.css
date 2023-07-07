@@ -8,12 +8,7 @@ font-weight: 600;
     content: url(./../svg/logo.svg);
     margin-right: 20px;
 }
-/* footer */
-.logo2::before {
-    content: url(./../svg/Group\ 159.svg);
-    margin-right: 10px;
-}
-/* footer */
+
 .header_list,.header_list a {
     list-style-type: none;
     color: rgba(255, 255, 255, 0.55);
