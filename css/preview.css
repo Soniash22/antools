@@ -34,7 +34,7 @@ font-weight: 600;
 line-height: normal;
 
 }
-form {
+.preview_form {
     border-radius: 15px;
 background: #283036;
 display: flex;
@@ -68,7 +68,7 @@ line-height: normal;
     margin-right: 8px;
     margin-top: 50px;
 }
-form::before {
+.preview_form::before {
     content: url(./../svg/search.svg);
     padding-left: 18px;
 }

@@ -45,7 +45,7 @@
                         <p class="preview_text">Antool is a web collection of information on paid or<br> free Design and Development tools</p>
                 </div>
                 
-                    <form action="#">
+                    <form class="preview_form" action="#">
                         <input class="placeholder" type="text" class="preview_placeholder" placeholder="find more than 430+ tools...">
                         <input class="preview_btn" type="button" value="Search">
                          
@@ -260,7 +260,7 @@
                             <ul class="newcomer_list">
     
                                 <li class="newcomer_item">
-                                    <!-- <div class="ellipse1"></div> -->
+                                    <div class="ellipse1"></div>
                                     <div class="wrapper">
                                         <div class="newcomer_img">
                                             <img src="./svg/zeplin.svg" alt="zeplin">
@@ -283,7 +283,7 @@
                                     </div>
                                 </li>
                                 <li class="newcomer_item">
-                                    <!-- <div class="ellipse1"></div> -->
+                                    <div class="ellipse1"></div>
                                     <div class="wrapper">
                                         <div class="newcomer_img">
                                             <img src="./svg/jb_phpstorm.svg" alt="phpstorm">
@@ -307,7 +307,7 @@
                                 </li>
     
                                 <li class="newcomer_item">
-                                    <!-- <div class="ellipse1"></div> -->
+                                    <div class="ellipse1"></div>
                                     <div class="wrapper">
                                         <div class="newcomer_img">
                                             <img src="./svg/jb_toolbox_app.svg" alt="toolbox">
@@ -331,7 +331,7 @@
                                 </li>
     
                                 <li class="newcomer_item">
-                                    <!-- <div class="ellipse1"></div> -->
+                                    <div class="ellipse1"></div>
                                     <div class="wrapper">
                                         <div class="newcomer_img">
                                             <img src="./svg/procreate.svg" alt="procreate">
@@ -360,67 +360,89 @@
             <div class="container">
                 <div class="slider_wrapper">
                     <div class="slider_inner">
-                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-left"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M30 36L18 24L30 12" stroke="white" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg></i>
                         <div class="slider_content">
                             <div class="slider-human">
                                 <img src="./img/david-suarez-4a1nNlrS5ZI-unsplash.png" alt="ronald">
                             </div>
                                 <div class="slider-comma">
-                                    <img src="./img/“.png" alt="comma">
+                                    <img class="comma_img" src="./img/“.png" alt="comma">
                                 </div>
                                 <div class="slider-text">
                                     <p class="slider_descr">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
                                 </div>
                         </div>
-                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M18 36L30 24L18 12" stroke="#FF6E30" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg></i>
                     </div>
                     <ul class="slider_dots">
-                        <li></li>
-                        <li class="dots_active"></li>
-                        <li></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="168" height="8" viewBox="0 0 168 8" fill="none"><rect y="1" width="44" height="6" rx="3" fill="#283036"/></svg></li>
+                        <li class="dots_active"><svg xmlns="http://www.w3.org/2000/svg" width="168" height="8" viewBox="0 0 168 8" fill="none"><rect x="62" width="44" height="8" rx="4" fill="#FF6E30"/></svg></li>
+                        <li> <svg xmlns="http://www.w3.org/2000/svg" width="168" height="8" viewBox="0 0 168 8" fill="none"><rect y="1" width="44" height="6" rx="3" fill="#283036"/></svg></li>
                     </ul>
                 </div>
             </div>
                 </section>
 
 
-                <section>
+                <section class="contributor">
                     <div class="container">
-                        <div class="join">
-                            <h2>Become a contributor?</h2>
-                            <p>Join us and get tips & tricks to become a great Designer and Developer</p>
-                            <form>
-                                <input type="text" placeholder="Enter your email...">
-                                    <input type="button" value="Join Us">
-                            </form>
+                        <div class="contributor_join">
+                            <h2 class="contributor_title">Become a contributor?</h2>
+                            <p class="contributor-text">Join us and get tips & tricks to become a great <br>Designer and Developer</p>
+                            <div class="contributor_div">
+                                <form class="contributor_form">
+                                    <input class="placeholder1" type="text" placeholder="Enter your email...">
+                                        <input class="preview_btn" type="button" value="Join Us">
+                                </form>
+                            </div>
                         </div>
                     </div>
                 
         </section>
         
     </main>
+    <hr>
     <footer>
-        <div class="antools_footer">
-            <a href="#"><h2 class="logo2">antools.</h2></a>
-            <p><span>Copyright 2021. Antools</span></p>
-            <p>Antool is a web collection of information on paid or free Design and Development tools</p>
-        </div>
-        <div class="contact_us">
-            <h2>Contact Us</h2>
-             <a href="tel:+621987463">+621987463</a>
-             <a href="#">M Building, No.10 A</a>
-               <a href="mailto:antools@awesome.com">antools@awesome.com</a>
-        </div>
-        <div class="categories">
-            <h2>Categories</h2>
-            <p>Design</p>
-            <p>Development</p>   
-        </div>
-        <div class="company">
-            <h2>Company Info</h2>
-            <p>About Us</p>
-            <p>Our Partners</p>
-            <p>Blog</p>
+
+        <div class="container">
+            <ul class="footer_list">
+                <li class="footer_item">
+                    <div class="antools_footer">
+                    <a href="#"><h3 class="logo2">antools.</h3></a>
+                    <h6 class="footer_span"><span>Copyright 2021. Antools</span></h6>
+                    <p><SPAn>Antool is a web collection of information on paid or free Design and Development tools</SPAn></p>
+                </div>
+            </li>
+                <li class="footer_item">
+                    <div class="contact_us">
+                        <h2>Contact Us</h2>
+                         <div class="footer-links">
+                            <a href="tel:+621987463">+621987463</a>
+                         <a href="#">M Building, No.10 A</a>
+                           <a href="mailto:antools@awesome.com">antools@awesome.com</a>
+                         </div>
+                    </div>
+                </li>
+                <li class="footer_item">
+                    <div class="categories">
+                        <h2>Categories</h2>
+                        <p>Design</p>
+                        <p>Development</p>   
+                    </div>
+                </li>
+                <li class="footer_item">
+                    <div class="company">
+                        <h2>Company Info</h2>
+                        <p>About Us</p>
+                        <p>Our Partners</p>
+                        <p>Blog</p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </footer>
 </body>

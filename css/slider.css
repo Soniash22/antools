@@ -17,10 +17,22 @@ justify-content: center;
 .slider_content {
     display: flex;
 }
-.slider-comma::before {
+/* .comma_img::before {
     
     content: “;
     transform: rotate(19.166deg);
     position: relative;
+    top: -75px;
+    left: -75px;
 
+} */
+.comma_img {
+    position: relative;
+    top: 110px;
+    left: 48px;
+}
+.slider_dots {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }

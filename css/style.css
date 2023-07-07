@@ -4,6 +4,8 @@
 @import "./brands.css";
 @import "./newcomer.css";
 @import "./slider.css";
+@import "./contributor.css";
+@import "./footer.css";
 
 .container {
     width: 1140px;
@@ -19,9 +21,16 @@ input {
 }
 a {
     text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.55);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 .preview {
-    background: url(../../img/Illustration.png) right no-repeat;
+    background: url(./../img/Illustration.png) right no-repeat;
     padding: 70px;
 }
 

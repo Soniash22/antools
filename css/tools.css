@@ -144,8 +144,22 @@ cursor: pointer;
 .tools_item {
     padding: 28px;
     border-radius: 15px;
+    position: relative;
 }
-.tools_item>.ellipse1::before {
+.ellipse1::before {
+    content: '';
+    position: absolute;
+    height: 159px;
+    width: 159px;
+    border-radius: 159px;
+
+filter: blur(70px);
+display: block;
+   top: -75px;
+   right: -75px;
+   border-radius: 159px; }
+
+   .ellipse1:hover {
     content: '';
     position: absolute;
     height: 159px;
@@ -156,7 +170,8 @@ filter: blur(70px);
 display: block;
    top: -75px;
    right: -75px;
-   border-radius: 159px; }
+   border-radius: 159px;
+   }
 
    .tools_heart:focus path {
      fill: #FD3B41;
