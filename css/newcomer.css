@@ -32,6 +32,9 @@ line-height: normal;
 padding: 15px 40px;
 border: none;
 margin-top: 45px;
+cursor: pointer;
+
+animation: heartBeat 4s 3s infinite;
 }
 .newcomer_wrapper {
     display: inline-block;
@@ -41,6 +44,7 @@ margin-top: 45px;
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
+    gap: 20px;
     
 }
 .newcomer_wrapper1 {

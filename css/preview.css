@@ -1,3 +1,8 @@
+.preview {
+    background: url(./../img/Illustration.png) right no-repeat;
+    padding: 70px 0;
+}
+
 .preview_title {
     color: rgba(255, 255, 255, 0.90);
 font-size: 50px;

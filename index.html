@@ -8,6 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/animate.css">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -63,7 +68,7 @@
     <main>
         <section class="tools">
             <div class="container">
-                    <h2 class="tools_title">Most Popular Tools</h2>
+                    <h2 class="tools_title animate__animated animate__zoomIn 4s wow">Most Popular Tools</h2>
                     <p class="tools_text">Tools for the best Designers and Developers <br>
                         most popularly used in the world</p>
                         <ul class="tools_list">
@@ -231,7 +236,7 @@
                                 </div>
                             </li>
                         </ul>
-                    <button class="tools_loadmore-btn">Load more</button>
+                    <button class="tools_loadmore-btn animate__animated animate__pulse">Load more</button>
                 </div>
             </div>
         </section>
@@ -255,7 +260,7 @@
                     <div class="newcomer_wrapper">
                         <h2 class="newcomer_title">Newcomer Tools</h2>
                         <p class="newcomer_descr">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-                        <button class="newcomer_btn">Explore more</button>
+                        <button class="newcomer_btn animate__animated animate__heartBeat">Explore more</button>
                     </div>
                             <ul class="newcomer_list">
     
@@ -387,7 +392,7 @@
                 <section class="contributor">
                     <div class="container">
                         <div class="contributor_join">
-                            <h2 class="contributor_title">Become a contributor?</h2>
+                            <h2 class="contributor_title animate__animated animate__fadeInDown wow">Become a contributor?</h2>
                             <p class="contributor-text">Join us and get tips & tricks to become a great <br>Designer and Developer</p>
                             <div class="contributor_div">
                                 <form class="contributor_form">
@@ -442,5 +447,9 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/5c9c81f2b2.js" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>

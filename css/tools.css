@@ -110,6 +110,7 @@ margin-right: 15px; */
   line-height: normal;
   padding: 9px 35px;
   margin-right: 15px;
+  cursor: pointer;
 }
 .tools_loadmore-btn {
   border-radius: 8px;
@@ -129,7 +130,10 @@ margin-right: 15px; */
   margin: 0 auto;
   margin-top: 135px;
   cursor: pointer;
+
+  animation: pulse 2s 3s infinite;
 }
+
 .tools_item:hover {
   border-radius: 15px;
   background: rgba(40, 48, 54, 0.6);
