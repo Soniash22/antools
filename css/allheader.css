@@ -32,9 +32,19 @@ font-weight: 500;
     display: flex;
     align-items: center;
 }
-.header_login a, .header_btn {
-    color: rgba(255, 255, 255, 0.78);
+.header_login a {
+    /* color: rgba(255, 255, 255, 0.78); */
 font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 40px;
+}
+
+.header_btn {
+    color: #FDF5FF;
+    font-size: 16px;
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
